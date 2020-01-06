@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="973ffbcc-82d9-4b27-b695-c31fb6566053" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/About.page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Form.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Note.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/About.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.page.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +84,7 @@
       <workItem from="1572623501409" duration="1507000" />
       <workItem from="1572706217206" duration="559000" />
       <workItem from="1572718623031" duration="16000" />
-      <workItem from="1578310691270" duration="3036000" />
+      <workItem from="1578310691270" duration="5968000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1578312487117</created>
@@ -92,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578312487117</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v1 added Homepage, Aboutpage and navbar component">
+      <created>1578314156800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578314156800</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="v1 added Homepage, Aboutpage and navbar component" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1 added Homepage, Aboutpage and navbar component" />
   </component>
 </project>
