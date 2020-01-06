@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="973ffbcc-82d9-4b27-b695-c31fb6566053" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Alert.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/alert.types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/alert/alert.context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/alert/alert.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/alert/alert.state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,7 +83,7 @@
       <workItem from="1572623501409" duration="1507000" />
       <workItem from="1572706217206" duration="559000" />
       <workItem from="1572718623031" duration="16000" />
-      <workItem from="1578310691270" duration="6967000" />
+      <workItem from="1578310691270" duration="10167000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1578312487117</created>
@@ -103,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578317485058</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="v3 added Alert component">
+      <created>1578318440861</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578318440861</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +136,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="v1 added Homepage, Aboutpage and navbar component" />
     <MESSAGE value="v2 added Form, Note components. Updated note list with delete button and date info" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2 added Form, Note components. Updated note list with delete button and date info" />
+    <MESSAGE value="v3 added Alert component" />
+    <option name="LAST_COMMIT_MESSAGE" value="v3 added Alert component" />
   </component>
 </project>
