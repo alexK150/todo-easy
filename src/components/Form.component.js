@@ -7,8 +7,13 @@ export const Form = () => {
 
     const submitHandler = e => {
         e.preventDefault();
+        if (value.trim()){
+            alert.show(' Note was created!', 'success');
+            setValue('');
+        }else {
+            alert.show(' Write some note')
+        }
 
-        alert.show(value, 'success')
     };
 
     return (
