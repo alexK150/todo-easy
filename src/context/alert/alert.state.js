@@ -3,7 +3,7 @@ import {AlertContext} from "./alert.context";
 import {alertReducer} from "./alert.reducer";
 import AlertActionTypes from "../alert.types";
 
-export const AlertState = ({children}) =>{
+const AlertState = ({children}) =>{
     const [state, dispatch] = useReducer(alertReducer, {visible: false});
 
     const show = (text, type = 'warning') => {
@@ -24,3 +24,5 @@ export const AlertState = ({children}) =>{
         </AlertContext.Provider>
     )
 };
+
+export default AlertState

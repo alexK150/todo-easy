@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="973ffbcc-82d9-4b27-b695-c31fb6566053" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/context/alert.types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/alert/alert.context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/alert/alert.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/alert/alert.state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Alert.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Alert.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/alert/alert.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/alert/alert.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/alert/alert.state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/alert/alert.state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="last_opened_file_path" value="D:/react-notes-app-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -83,7 +84,10 @@
       <workItem from="1572623501409" duration="1507000" />
       <workItem from="1572706217206" duration="559000" />
       <workItem from="1572718623031" duration="16000" />
-      <workItem from="1578310691270" duration="10167000" />
+      <workItem from="1578310691270" duration="14252000" />
+      <workItem from="1578467078197" duration="322000" />
+      <workItem from="1578653611075" duration="1951000" />
+      <workItem from="1578657592234" duration="561000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1578312487117</created>
@@ -113,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578318440861</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v4 added context, types, state and reducer for alert">
+      <created>1578340335999</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578340335999</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +148,7 @@
     <MESSAGE value="v1 added Homepage, Aboutpage and navbar component" />
     <MESSAGE value="v2 added Form, Note components. Updated note list with delete button and date info" />
     <MESSAGE value="v3 added Alert component" />
-    <option name="LAST_COMMIT_MESSAGE" value="v3 added Alert component" />
+    <MESSAGE value="v4 added context, types, state and reducer for alert" />
+    <option name="LAST_COMMIT_MESSAGE" value="v4 added context, types, state and reducer for alert" />
   </component>
 </project>

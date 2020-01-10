@@ -1,18 +1,12 @@
 import AlertActionTypes from "../alert.types";
 
+const handlers = {
+    [AlertActionTypes.SHOW_ALERT]: (state, {payload}) => ({...payload, visible: true}),
+    [AlertActionTypes.HIDE_ALERT]: state => ({...state, visible: false}),
+    DEFAULT: state => state
+};
+
 export const alertReducer = (state, action) => {
-    switch (action.type) {
-        case AlertActionTypes.SHOW_ALERT:
-            return {
-                ...state,
-                visible: true
-            };
-        case AlertActionTypes.HIDE_ALERT:
-            return {
-                ...state,
-                visible: false
-            };
-        default:
-            return state
-    }
+    const handle = handlers[action.type] || handlers.DEFAULT;
+    return handle(state, action)
 };
