@@ -1,4 +1,5 @@
 import React, {useReducer} from 'react';
+
 import {AlertContext} from "./alert.context";
 import {alertReducer} from "./alert.reducer";
 import actionType from "../alert.types";

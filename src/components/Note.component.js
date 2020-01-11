@@ -10,7 +10,7 @@ export const Note = ({notes}) => {
                 >
                     <div>
                         <strong>{note.title}</strong>
-                        <small>{Date().toString()}</small>
+                        <small>{note.date}</small>
                     </div>
                     <button
                         type="button"
