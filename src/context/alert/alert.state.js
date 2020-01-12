@@ -1,10 +1,10 @@
 import React, {useReducer} from 'react';
 
-import {AlertContext} from "./alert.context";
-import {alertReducer} from "./alert.reducer";
-import actionType from "../alert.types";
+import {AlertContext} from './alert.context';
+import {alertReducer} from './alert.reducer';
+import actionType from '../alert.types';
 
-export const AlertState = ({children}) =>{
+export const AlertState = ({children}) => {
     const [state, dispatch] = useReducer(alertReducer, {visible: false});
 
     const show = (text, type = 'warning') => {

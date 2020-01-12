@@ -1,7 +1,7 @@
 import React, {useState, useContext} from 'react';
 
-import {AlertContext} from "../context/alert/alert.context";
-import {FirebaseContext} from "../context/firebase/firebase-context";
+import {AlertContext} from '../context/alert/alert.context';
+import {FirebaseContext} from '../context/firebase/firebase-context';
 
 export const Form = () => {
     const [value, setValue] = useState('');

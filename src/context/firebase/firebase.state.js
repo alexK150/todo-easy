@@ -1,9 +1,9 @@
 import React, {useReducer} from 'react';
 import axios from 'axios';
 
-import {FirebaseContext} from "./firebase-context";
-import {firebaseReducer} from "./firebase.reducer";
-import ActionType from "../alert.types";
+import {FirebaseContext} from './firebase-context';
+import {firebaseReducer} from './firebase.reducer';
+import ActionType from '../alert.types';
 
 const url = process.env.REACT_APP_DB_URL;
 

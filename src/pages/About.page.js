@@ -6,7 +6,7 @@ export const About = () => (
             <h4 className="display-5">React</h4>
             <p className="lead">&#10004;react-router-dom</p>
             <p className="lead">&#10004;axios</p>
-            <p className="lead">&#10004;hooks</p>
+            <p className="lead">&#10004;hooks(useState, useContext, useReducer, useEffect)</p>
             <p className="lead">&#10004;context</p>
             <h4 className="display-5">Bootstrap</h4>
             <h4 className="display-5">SASS</h4>

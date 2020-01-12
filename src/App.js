@@ -1,14 +1,14 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
-import {Home} from "./pages/Home.page";
-import {About} from "./pages/About.page";
-import {Navbar} from "./components/Navbar.component";
-import {Alert} from "./components/Alert.component";
-import {AlertState} from "./context/alert/alert.state";
-import {FirebaseState} from './context/firebase/firebase.state'
+import {Home} from './pages/Home.page';
+import {About} from './pages/About.page';
+import {Navbar} from './components/Navbar.component';
+import {Alert} from './components/Alert.component';
+import {AlertState} from './context/alert/alert.state';
+import {FirebaseState} from './context/firebase/firebase.state';
 
-const App = () => {
+export const App = () => {
     return (
         <FirebaseState>
             <AlertState>
@@ -26,5 +26,3 @@ const App = () => {
         </FirebaseState>
     );
 };
-
-export default App;

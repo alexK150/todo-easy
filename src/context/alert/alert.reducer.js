@@ -1,4 +1,4 @@
-import AlertActionTypes from "../alert.types";
+import AlertActionTypes from '../alert.types';
 
 const handlers = {
     [AlertActionTypes.SHOW_ALERT]: (state, {payload}) => ({...payload, visible: true}),
