@@ -8,6 +8,7 @@ import ActionType from "../alert.types";
 const url = process.env.REACT_APP_DB_URL;
 
 export const FirebaseState = ({children}) => {
+
     const initialState = {
         notes: [],
         isLoading: false
@@ -20,7 +21,7 @@ export const FirebaseState = ({children}) => {
         showLoader();
         const res = await axios.get(`${url}/notes.json`);
 
-        const payload = Object.keys(res.data).map(key => {
+        const payload = Object.keys(res.data || []).map(key => {
             return {
                 ...res.data[key],
                 id: key
@@ -48,12 +49,13 @@ export const FirebaseState = ({children}) => {
     };
 
     const removeNote = async id => {
+
         await axios.delete(`${url}/notes/${id}.json`);
 
         dispatch({
             type: ActionType.REMOVE_NOTE,
             payload: id
-        })
+        });
     };
 
     return (

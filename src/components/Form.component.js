@@ -18,9 +18,8 @@ export const Form = () => {
             });
             setValue('');
         } else {
-            alert.show('Write some note')
+            alert.show('Write some note', 'danger')
         }
-
     };
 
     return (
